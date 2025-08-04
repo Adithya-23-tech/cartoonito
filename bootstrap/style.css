@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+*{
+    font-family: "East Sea Dokdo", serif;
+}
+#shows{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding-top: 50px;
+}
+.showimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgb(133, 147, 213);
+}
+#search{
+    background-color:rgba(134, 170, 209, 0.2);
+    color: black;
+    border-radius: 30px;
+    box-shadow: 2px 3px 10px rgb(133, 147, 213);
+    
+}
+#logo{
+    border-radius: 90px;
+}
+.showbtn{
+    border-radius: 20px;
+    background-color: rgb(147, 147, 214);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding-top: 50px;
+}
+.movieimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.movie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px rgb(133, 147, 213);
+}
+.moviebtn{
+    border-radius: 20px;
+    background-color: rgb(147, 147, 214);
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+#comedy{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    padding-top: 50px;
+}
+#ul{
+    color: black;
+    text-shadow: 2px 3px 10px rgb(133, 147, 213);
+}
+#cat{
+    text-shadow: 2px 3px 10px rgb(133, 147, 213);
+    
+}
