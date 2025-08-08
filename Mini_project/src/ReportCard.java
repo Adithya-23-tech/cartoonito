@@ -4,10 +4,10 @@ public class ReportCard {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter Student Name: ");
+        System.out.print("Enter the Student Name: ");
         String name = sc.nextLine();
 
-        System.out.print("Enter Roll Number: ");
+        System.out.print("Enter the Roll Number: ");
         int rollNumber = sc.nextInt();
 
         System.out.print("Enter number of subjects: ");
@@ -67,3 +67,4 @@ public class ReportCard {
         sc.close();
     }
 }
+
